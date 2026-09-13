@@ -75,7 +75,6 @@ dialogue = SubResource("start")
 accepted_dialogue = SubResource("aside")
 communication_type = "RESIDENT"
 time = "12:10 AM"
-LogbookEntry = ""
 report_weight = 3.0
 room_number = "412"
 trigger_hour = 0

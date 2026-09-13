@@ -492,14 +492,14 @@ grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("11_hand")
 
-[node name="ReportLayer" type="CanvasLayer" parent="."]
+[node name="ReportLayer" type="CanvasLayer" parent="." unique_id=1814448032]
 layer = 40
 
 [node name="DayReportUI" parent="ReportLayer" unique_id=86161530 instance=ExtResource("13_qnepm")]
 
 [node name="ShiftTransitionUI" parent="ReportLayer" unique_id=1068896443 instance=ExtResource("30_shift_transition")]
 
-[node name="PauseLayer" type="CanvasLayer" parent="."]
+[node name="PauseLayer" type="CanvasLayer" parent="." unique_id=504048914]
 layer = 100
 
 [node name="PauseMenu" parent="PauseLayer" unique_id=405723742 instance=ExtResource("32_pause_menu")]

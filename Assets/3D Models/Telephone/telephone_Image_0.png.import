@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq656oc6ktb4h"
 path.s3tc="res://.godot/imported/telephone_Image_0.png-0488a87d2cc555a42dc8c798a0c25c9c.s3tc.ctex"
+path.etc2="res://.godot/imported/telephone_Image_0.png-0488a87d2cc555a42dc8c798a0c25c9c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/3D Models/Telephone/telephone_Image_0.png"
-dest_files=["res://.godot/imported/telephone_Image_0.png-0488a87d2cc555a42dc8c798a0c25c9c.s3tc.ctex"]
+dest_files=["res://.godot/imported/telephone_Image_0.png-0488a87d2cc555a42dc8c798a0c25c9c.s3tc.ctex", "res://.godot/imported/telephone_Image_0.png-0488a87d2cc555a42dc8c798a0c25c9c.etc2.ctex"]
 
 [params]
 

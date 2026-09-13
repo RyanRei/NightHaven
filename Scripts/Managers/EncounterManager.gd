@@ -1,7 +1,7 @@
 class_name EncounterManager
 extends Node
 
-const MALE_VISITOR_SCENE: PackedScene = preload("res://Scenes/humanEntity.tscn")
+#const MALE_VISITOR_SCENE: PackedScene = preload("res://Scenes/humanEntity.tscn")
 const FEMALE_VISITOR_SCENE: PackedScene = preload("res://Scenes/maya_chen.tscn")
 const VISITOR_VOICE_BUS := &"VisitorVoice"
 const VISITOR_VOICE_NODE := &"VisitorVoice3D"
@@ -604,8 +604,8 @@ func _resolve_guest_animation(player: AnimationPlayer, requested_name: StringNam
 func _get_visitor_model(encounter: EncounterData) -> PackedScene:
 	if encounter.visitor_gender == "FEMALE":
 		return FEMALE_VISITOR_SCENE
-	if encounter.visitor_gender == "MALE":
-		return MALE_VISITOR_SCENE
+	#if encounter.visitor_gender == "MALE":
+		#return MALE_VISITOR_SCENE
 	return encounter.model
 
 

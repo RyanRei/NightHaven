@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnfoi552vc42i"
 path.s3tc="res://.godot/imported/simple_animated_book_0.jpg-733ba1fe0cf9d6c98957b77cd30ad0b2.s3tc.ctex"
+path.etc2="res://.godot/imported/simple_animated_book_0.jpg-733ba1fe0cf9d6c98957b77cd30ad0b2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Assets/3D Models/Logbook/simple_animated_book_0.jpg"
-dest_files=["res://.godot/imported/simple_animated_book_0.jpg-733ba1fe0cf9d6c98957b77cd30ad0b2.s3tc.ctex"]
+dest_files=["res://.godot/imported/simple_animated_book_0.jpg-733ba1fe0cf9d6c98957b77cd30ad0b2.s3tc.ctex", "res://.godot/imported/simple_animated_book_0.jpg-733ba1fe0cf9d6c98957b77cd30ad0b2.etc2.ctex"]
 
 [params]
 

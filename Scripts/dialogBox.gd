@@ -118,6 +118,7 @@ func hide_dialogue_ui() -> void:
 	is_in_choices = false
 	$DialoguePanel.hide()
 	question_menu.hide()
+	accept_reject.hide()
 	if hint_label: hint_label.hide()
 	continue_indicator.hide()
 

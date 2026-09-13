@@ -1,11 +1,10 @@
 [gd_scene format=3 uid="uid://ddov4n108fqs8"]
 
-[ext_resource type="PackedScene" uid="uid://dh2bagulgtoim" path="res://Assets/ItemHolders/Dialogues/Day1/MayaChen/MayaChen.glb" id="1_4xbr6"]
-[ext_resource type="Texture2D" uid="uid://b5y72v36l1y1n" path="res://Assets/ItemHolders/Dialogues/Day1/MayaChen/MayaChen_Hair_Transparency_Specular.png" id="2_87inr"]
+[ext_resource type="PackedScene" uid="uid://bvst8ojhef3ua" path="res://Assets/3D Models/Characters/Female/womanfull/MayaChen.glb" id="1_4xbr6"]
+[ext_resource type="Texture2D" uid="uid://bhynpm37q4qss" path="res://Assets/3D Models/Characters/Female/womanfull/MayaChen_Hair_Transparency_Specular.png" id="2_87inr"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_87inr"]
-albedo_color = Color(0.12005126, 0.12005126, 0.12005126, 1)
-metallic = 0.36
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4xbr6"]
+albedo_color = Color(0.12298488, 0.12298488, 0.12298488, 1)
 normal_enabled = true
 normal_texture = ExtResource("2_87inr")
 
@@ -21,7 +20,7 @@ tracks/0/keys = PackedFloat32Array(0, 1, -5.051098e-05, -5.0686096e-05, 0.707106
 
 [sub_resource type="Animation" id="Animation_87inr"]
 resource_name = "sppeaak"
-length = 0.39999999999999997
+length = 0.4
 loop_mode = 1
 step = 0.1
 tracks/0/type = "rotation_3d"
@@ -32,18 +31,18 @@ tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = PackedFloat32Array(0, 1, -5.051098e-05, -5.0686096e-05, 0.7071068, 0.7071068, 0.2, 1, 0.004013918, 0.005506947, 0.765843, 0.6429915, 0.4, 1, -0.00071837584, -0.0009639185, 0.6969403, 0.71712816)
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_4xbr6"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_87inr"]
 _data = {
 &"RESET": SubResource("Animation_4xbr6"),
 &"sppeaak": SubResource("Animation_87inr")
 }
 
-[node name="MayaChen" unique_id=111320900 instance=ExtResource("1_4xbr6")]
+[node name="MayaChen" unique_id=639160695 instance=ExtResource("1_4xbr6")]
 
-[node name="Armature_001" parent="." index="0" unique_id=200231162]
+[node name="Armature_001" parent="." index="0" unique_id=724792408]
 transform = Transform3D(3.8, 0, 0, 0, -1.6610328e-07, -3.8, 0, 3.8, -1.6610328e-07, 0, 0, 0)
 
-[node name="Skeleton3D" parent="Armature_001" index="0" unique_id=127886122]
+[node name="Skeleton3D" parent="Armature_001" index="0" unique_id=1060585270]
 bones/1/position = Vector3(-1.0197066, -0.0047461605, 0.98750865)
 bones/1/rotation = Quaternion(0.6813674, -0.04365814, 0.078449324, 0.72641456)
 bones/3/rotation = Quaternion(0.059285387, 0.10678819, 0.98705024, 0.10398775)
@@ -102,10 +101,8 @@ bones/68/position = Vector3(0.030150428, 0.008938919, 1.293274e-06)
 bones/68/rotation = Quaternion(1.7062646e-06, -7.274971e-06, 0.053927355, 0.9985449)
 bones/71/position = Vector3(0.069084726, 0.07282962, 0.031065423)
 bones/71/rotation = Quaternion(0.7071525, -0.00023951363, 0.707061, 0.00034313733)
-bones/71/scale = Vector3(0.9999995, 0.9999997, 0.9999997)
 bones/72/position = Vector3(0.069080934, 0.07282901, -0.031073267)
 bones/72/rotation = Quaternion(0.70706105, -0.0003430353, 0.7071524, 0.00023962009)
-bones/72/scale = Vector3(0.99999964, 0.99999946, 0.9999996)
 bones/73/position = Vector3(0.026388075, 0.06305944, -6.331177e-08)
 bones/73/rotation = Quaternion(4.2909414e-05, -4.580856e-05, 0.7068152, 0.70739824)
 bones/74/position = Vector3(0.00030216816, -1.9187266e-05, -1.0345251e-07)
@@ -127,11 +124,11 @@ bones/96/rotation = Quaternion(0.11073193, 0.10103721, -0.06665824, 0.98645157)
 bones/97/position = Vector3(-1.2810091e-08, 3.894081e-08, 3.5463835e-08)
 bones/98/position = Vector3(1.5713451e-05, 0.1317894, -2.0060426e-05)
 
-[node name="Side_part_wavy" parent="Armature_001/Skeleton3D" index="10" unique_id=60604407]
-material_override = SubResource("StandardMaterial3D_87inr")
+[node name="Side_part_wavy" parent="Armature_001/Skeleton3D" index="10" unique_id=1310208575]
+material_override = SubResource("StandardMaterial3D_4xbr6")
 
-[node name="AnimationPlayer" parent="." index="1" unique_id=178564179]
+[node name="AnimationPlayer" parent="." index="1" unique_id=67086054]
 autoplay = &"Idle"
 
-[node name="AnimationPlayer2" type="AnimationPlayer" parent="." index="2" unique_id=988525179]
-libraries/ = SubResource("AnimationLibrary_4xbr6")
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="." index="2" unique_id=2041159860]
+libraries/ = SubResource("AnimationLibrary_87inr")

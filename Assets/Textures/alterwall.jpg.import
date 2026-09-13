@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://uaaui4wtmpk7"
 path.s3tc="res://.godot/imported/alterwall.jpg-26c5736d3c1a31f26b060213f4ff3441.s3tc.ctex"
+path.etc2="res://.godot/imported/alterwall.jpg-26c5736d3c1a31f26b060213f4ff3441.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/Textures/alterwall.jpg"
-dest_files=["res://.godot/imported/alterwall.jpg-26c5736d3c1a31f26b060213f4ff3441.s3tc.ctex"]
+dest_files=["res://.godot/imported/alterwall.jpg-26c5736d3c1a31f26b060213f4ff3441.s3tc.ctex", "res://.godot/imported/alterwall.jpg-26c5736d3c1a31f26b060213f4ff3441.etc2.ctex"]
 
 [params]
 

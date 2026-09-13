@@ -104,6 +104,9 @@ func is_modal_ui_open() -> bool:
 
 
 func _draw() -> void:
+	if Engine.get_frames_drawn() % 60 == 0:
+		print("InteractionHand._draw() called - visible: ", visible, " size: ", size)
+	
 	var center := size * 0.5
 	if Input.mouse_mode != Input.MOUSE_MODE_CAPTURED:
 		center = get_viewport().get_mouse_position()
